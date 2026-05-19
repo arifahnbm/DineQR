@@ -118,7 +118,7 @@ Cashier payment feature that helps cashiers process customer transactions, manag
 
 ### Preview
 
-![Cashier Payment Feature](./public/readme/payment.png)
+![Cashier Payment Feature](public/readme/payment.png)
 
 ---
 
