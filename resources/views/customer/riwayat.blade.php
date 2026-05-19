@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Warung Seblang | Detail Pesanan</title>
+    <title>DineQR | Detail Pesanan</title>
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 

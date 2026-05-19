@@ -1,66 +1,177 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# 🍽️ DineQR
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+### Smart QR-Based Restaurant Ordering System
 
-## About Laravel
+DineQR is a QR-based restaurant ordering system designed to simplify the dining experience for customers while helping restaurants manage orders, payments, and stock more efficiently.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## Overview
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+DineQR allows customers to scan a QR code on their table, browse menus digitally, place orders directly from their device, and complete payments without waiting for manual service. The system also provides restaurant staff and admins with tools to manage orders, tables, stock, and cashier accounts in one integrated dashboard.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+---
 
-## Learning Laravel
+# Features
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+## 1. User Authentication
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+Secure authentication system for admin and cashier accounts.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+### Preview
 
-## Laravel Sponsors
+![Authentication Feature](./public/readme/authentication.png)
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+---
 
-### Premium Partners
+## 2. Customer Menu Ordering
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+Customers can scan QR codes and order menu items directly from their devices.
 
-## Contributing
+### Preview
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+![Customer Ordering Feature](./public/readme/pelanggan-menu.png)
 
-## Code of Conduct
+---
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+## 3. Shopping Cart
 
-## Security Vulnerabilities
+Customers can review selected menu items before confirming orders.
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+### Preview
 
-## License
+![Cart Feature](./public/readme/cart.png)
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+---
+
+## 4. Table Management
+
+Restaurant staff can manage table numbers and monitor table availability.
+
+### Preview
+
+![Table Management Feature](./public/readme/table-management.png)
+
+---
+
+## 5. Order & Payment Management
+
+Manage customer orders, payment status, and transaction flow in real time.
+
+### Preview
+
+![Order Management Feature](./public/readme/order-payment.png)
+
+---
+
+## 6. Menu Management
+
+Track menu stock availability to help restaurant operations run more efficiently.
+
+### Preview
+
+![Menu Management Feature](./public/readme/stock-management.png)
+
+---
+
+## 7. Cashier Account Management
+
+Admins can create and manage cashier accounts.
+
+### Preview
+
+![Cashier Account Feature](./public/readme/cashier-management.png)
+
+---
+
+## 8. Admin Dashboard
+
+Dashboard overview for monitoring restaurant activities and system management.
+
+### Preview
+
+![Admin Dashboard Feature](./public/readme/admin-dashboard.png)
+
+---
+
+## 9. Sales Report
+
+Sales reporting feature that allows restaurants to monitor total orders and transaction history with downloadable report documents.
+
+### Preview
+
+![Admin Report Feature](./public/readme/report.png)
+
+---
+
+## 10. Category Manajement
+
+Category management feature for organizing menu categories, making it easier for restaurants to manage, update, and display menu items more efficiently.
+
+### Preview
+
+![Category Management Feature](./public/readme/category.png)
+
+---
+
+## 11. Cashier Payment 
+
+Cashier payment feature that helps cashiers process customer transactions, manage payment status, and record payments more efficiently during restaurant operations.
+
+### Preview
+
+![Cashier Payment Feature](./public/readme/payment.png)
+
+---
+
+## 12. Order Detail
+
+Order detail feature that provides complete information about customer orders, including ordered items, quantities, payment status, and transaction details for easier order tracking and management.
+
+### Preview
+
+![Order Detail Feature](./public/readme/detail.png)
+
+---
+
+# Tech Stack
+
+* Laravel
+* Tailwind CSS
+
+---
+
+# My Contributions
+
+As Team Leader and Full Stack Developer, I contributed to:
+
+* Developing authentication systems
+* Building customer ordering flow
+* Developing cart functionality
+* Creating table management system
+* Building order and payment management features
+* Developing stock management features
+* Managing cashier account system
+* Building responsive UI across devices
+* Helping maintain integration between features
+* Coordinating communication and progress within the team
+
+---
+
+# Challenges & Lessons Learned
+
+One of the biggest challenges during development was maintaining team productivity under tight deadlines. In the early phase, I often helped complete other team members’ tasks because I was worried the project would not finish on time. However, this made me overwhelmed and reduced team independence.
+
+Through this project, I learned that leadership is not about doing everything alone, but about building communication, accountability, and collaboration within the team. I also learned the importance of setting clear responsibilities and maintaining consistent progress tracking throughout development.
+
+---
+
+# Future Improvements
+
+* Real-time order notifications
+* Multi-branch restaurant support
+* Integrated online payment gateway
+
+---
+
+# License
+
+This project was created for educational and portfolio purposes.
