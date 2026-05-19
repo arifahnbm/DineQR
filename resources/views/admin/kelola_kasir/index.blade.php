@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 
-    <title>Admin Seblang | Kelola Kasir</title>
+    <title>Admin DineQR | Kelola Kasir</title>
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 

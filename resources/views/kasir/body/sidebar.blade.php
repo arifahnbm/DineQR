@@ -33,9 +33,10 @@
 
     <!-- LOGO / TITLE -->
     <a href="{{ route('kasir.dashboard') }}">
-        <span class="logo block mt-6">
+        <span class="logo flex items-center gap-3 mt-6">
+            <img src="{{ asset('src/images/logo.png') }}" alt="Logo" class="w-10 h-10">
             <h1 class="text-2xl font-bold text-gray-800 dark:text-white">
-                Kasir Seblang
+                Kasir DineQR
             </h1>
         </span>
     </a>

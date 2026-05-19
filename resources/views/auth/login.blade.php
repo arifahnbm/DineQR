@@ -90,7 +90,7 @@
               </a> --}}
               <h1 class="text-center text-white">Halo, Selamat Datang!</h1>
               <p class="text-center text-gray-400 dark:text-white/60">
-                Ayo masuk dan mulai mengelola pesanan di Warung Seblang.
+                Ayo masuk dan mulai mengelola pesanan di DineQR.
               </p>
             </div>
           </div>
