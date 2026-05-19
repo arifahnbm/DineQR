@@ -18,7 +18,7 @@ Secure authentication system for admin and cashier accounts.
 
 ### Preview
 
-![Authentication Feature](./public/readme/authentication.png)
+![Authentication Feature](public\readme\authentication.PNG)
 
 ---
 
@@ -28,7 +28,7 @@ Customers can scan QR codes and order menu items directly from their devices.
 
 ### Preview
 
-![Customer Ordering Feature](./public/readme/pelanggan-menu.png)
+![Customer Ordering Feature](public\readme\pelanggan-menu.PNG)
 
 ---
 
@@ -38,7 +38,7 @@ Customers can review selected menu items before confirming orders.
 
 ### Preview
 
-![Cart Feature](./public/readme/cart.png)
+![Cart Feature](public\readme\cart.PNG)
 
 ---
 
@@ -48,7 +48,7 @@ Restaurant staff can manage table numbers and monitor table availability.
 
 ### Preview
 
-![Table Management Feature](./public/readme/table-management.png)
+![Table Management Feature](public\readme\table-management.PNG)
 
 ---
 
@@ -58,7 +58,7 @@ Manage customer orders, payment status, and transaction flow in real time.
 
 ### Preview
 
-![Order Management Feature](./public/readme/order-payment.png)
+![Order Management Feature](public\readme\order-payment.PNG)
 
 ---
 
@@ -68,7 +68,7 @@ Track menu stock availability to help restaurant operations run more efficiently
 
 ### Preview
 
-![Menu Management Feature](./public/readme/stock-management.png)
+![Menu Management Feature](public\readme\stock-management.PNG)
 
 ---
 
@@ -78,7 +78,7 @@ Admins can create and manage cashier accounts.
 
 ### Preview
 
-![Cashier Account Feature](./public/readme/cashier-management.png)
+![Cashier Account Feature](public\readme\cashier-management.PNG)
 
 ---
 
@@ -88,7 +88,7 @@ Dashboard overview for monitoring restaurant activities and system management.
 
 ### Preview
 
-![Admin Dashboard Feature](./public/readme/admin-dashboard.png)
+![Admin Dashboard Feature](public\readme\admin-dashboard.PNG)
 
 ---
 
@@ -98,7 +98,7 @@ Sales reporting feature that allows restaurants to monitor total orders and tran
 
 ### Preview
 
-![Admin Report Feature](./public/readme/report.png)
+![Admin Report Feature](public\readme\report.PNG)
 
 ---
 
@@ -108,7 +108,7 @@ Category management feature for organizing menu categories, making it easier for
 
 ### Preview
 
-![Category Management Feature](./public/readme/category.png)
+![Category Management Feature](public\readme\category.PNG)
 
 ---
 
@@ -118,7 +118,7 @@ Cashier payment feature that helps cashiers process customer transactions, manag
 
 ### Preview
 
-![Cashier Payment Feature](public/readme/payment.png)
+![Cashier Payment Feature](public\readme\payment.PNG)
 
 ---
 
@@ -128,7 +128,9 @@ Order detail feature that provides complete information about customer orders, i
 
 ### Preview
 
-![Order Detail Feature](./public/readme/detail.png)
+![Order Detail Feature](public\readme\detail.PNG)
+
+
 
 ---
 
